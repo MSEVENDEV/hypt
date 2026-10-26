@@ -75,8 +75,10 @@ saying so.
 - **Storage that looks after itself.** A size cap that recycles Hypt's oldest clips — starred clips, NVIDIA's
   clips and your own videos are never touched.
 - **Storage Optimizer.** An interactive audit tool that ranks clips by size, filters huge (> 500 MB) and old files, and allows one-click bulk recycling to free up disk space or batch compression to 10 MB for Discord.
-- **Runs as administrator** (asks on launch), so it can capture elevated and anti-cheat games and read
-  their names. **Start with Windows** uses a scheduled task, so there's no UAC prompt at every sign-in.
+- **Zero-UAC Launch:** Starts instantly as a standard user process with zero administrator popups.
+- **Customizable Voice Triggers:** Change the voice trigger from "Hypt, clip that" to any custom word or phrase (e.g. "clip that", "boom", "save play") with zero false triggers.
+- **Soft Audio Cues:** Silky-soft, satisfying warm chime when saving clips or screenshots (toggleable in Settings).
+- **Start with Windows** without UAC prompts.
 - **Stream Deck & macros.** `Hypt.exe --clip`, `--record`, `--marker`, `--overlay` control the running app.
 
 <p align="center">
@@ -131,7 +133,9 @@ the one-time key or PIN can see your clips. Voice recognition is offline. No tel
 - حجم صغير (HEVC / AV1) وزر واحد يصغّر اللقطة إلى 10 ميغا للديسكورد.
 - **انقل لقطاتك للجوال**: امسح كود QR وتفتح لقطاتك في متصفح الجوال على نفس الواي فاي — بدون سحابة وبدون حساب.
 - **خزنة مشفّرة** (AES-256) للّقطات الخاصة، و**حارس خصوصية** يحذف أي لقطة فيها برنامج كلمات المرور.
-- يطلب صلاحيات المسؤول عند التشغيل عشان يقدر يسجّل الألعاب المحمية.
+- **تشغيل فوري بدون إذن مسؤول (No UAC):** يشتغل البرنامج فوراً كبرنامج عادي بدون أي نافذة تأكيد مزعجة من وندوز.
+- **تخصيص جملة التصوير الصوتي:** تقدر تغير جملة القص لأي كلمة أو عبارة تبيها مع ذكاء اصطناعي يلقطها بدقة بدون أي لقطات بالخطأ.
+- **نغمة ناعمة وسوفت:** صوت لطيف وهادئ يؤكد لك حفظ اللقطة بدون إزعاج (اختياري من الإعدادات).
 - **منظّم المساحة (Storage Optimizer)**: يوريك أكبر اللقطات لاكتشاف اللي ماخذين مساحة بجهازك، مع ميزة حذفهم دفعة واحدة بأمان لسلة المحذوفات أو ضغطهم لحجم 10 ميغا.
 - مشغّل الفيديو الشقيق: [Vyu](https://github.com/MSEVENDEV/vyu).
 
